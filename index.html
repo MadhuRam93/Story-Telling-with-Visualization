@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<title>Chord Diagram - IPL PLayer Trends</title>
+	
+	<!-- D3.js -->
+    <script src="d3.v3.min.js"></script>
+	
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	
+	<!-- Google Fonts -->
+	    <link type="text/css" rel="stylesheet" href="css/chord-style.css"/>
+  </head>
+  <body>
+    <div id="body">
+	<script>
+        var theFile = 'Ipl3.mp3';
+        $("div").html("<audio src='" + theFile + "' controls preload='auto' autobuffer></audio>");                   
+    </script>
+	<div id="cont" class="container-fluid">
+		<div class="row text-center">
+			<div class="col-md-12">
+					<div id="chart"></div>	
+					<div id="clickerWrapper">
+						<div id="progress"></div>
+						<div id="clicker">Let's Start</div>
+					</div>
+			</div>
+		</div>
+	</div>
+	
+    </div>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js/helperFunctions.js"></script>
+	<script src="js/Draw1.js"></script>
+	<script src="js/Draw3.js"></script>
+	<script src="js/Draw9.js"></script>
+	<script src="js/Draw10.js"></script>
+	<script src="js/Draw11.js"></script>
+	<script src="js/Draw13.js"></script>
+	<script src="js/Draw14.js"></script>
+	<script src="js/finalChord.js"></script>
+	<script src="js/chordsMain.js"></script>
+	   
+  </body>
+</html>
